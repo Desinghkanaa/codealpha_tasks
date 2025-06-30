@@ -1,0 +1,36 @@
+.new-collection{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   /* height: 90vh; */
+   margin-top: 60px;
+   margin-bottom: 120px;
+   /* width: 65%; */
+}
+
+.new-collection h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    /* border: 2px solid black; */
+}
+
+.new-collection hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+     /* border: 2px solid black; */
+     padding:3px;
+}
+
+
+.new-collection-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    /* padding: 30px 20px; */
+    margin-top: 30px;
+    /* border: 2px solid red; */
+}
